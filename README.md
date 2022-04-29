@@ -41,6 +41,10 @@ python train.py --dataroot path/to/data/ --model unsup_single --dataset_mode una
 python test.py --dataroot path/to/data/ --model unsup_single --dataset_mode unaligned_scale --name v2l_experiment --loadSizeW 256 --loadSizeH 256 --resize_mode rectangle --fineSizeW 256 --fineSizeH 256 --crop_mode none --which_model_netG resnet_6blocks --no_dropout --which_epoch 5
 ```
    
+**Pretrained Models**
+
+Pretrained models in both experiments are available [here](https://drive.google.com/file/d/1-kcLQLBNk5pOMcdAYPnIQAhA-Kg6_jA5/view?usp=sharing).
+
 # Citation
 ```
 @article{Wang_Akash_Misu_2022, 
